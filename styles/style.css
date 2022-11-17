@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #193498;
+}
+
+header{
+  display: inline;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #193498;
+}
+
+.bar {
+  width: 30px;
+}
+
+.logo{
+    color: #69DADB;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav a{
+    color: white;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background: #1597E5;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+  }
+
+.jumbotron {
+  padding: 60px;
+  text-align: center;
+}
+
+.jumbotron .foto {
+  width: 150px;
+  margin-top: 100px;
+  border-radius: 100%;
+  border: solid #69DADB;
+  
+}
+
+#content{
+  margin-left: auto;
+  margin-right: auto;  
+  width: 75%;
+}
+
+.home_txt{
+  color: white;
+  padding: 30px;
+}
+
+.home_txt h3 {
+  color: #69DADB;
+}
+
+.home_txt h2 {
+  font-size: 3rem;
+}
+
+.home_txt .color {
+  color: #69DADB;
+}
+
+.home_txt p{
+  margin-top: 10px;
+  font-size: 0.938rem;
+}
+
+.medsos img{
+  width: 25px;
+  margin-right: 10px;
+}
+
+.skill_section{
+  padding: 50px 60px;
+}
+
+.skill_section h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #69DADB;
+}
+
+.skill_section h1::after {
+  content: "";
+  width: 210px;
+  height: 5px;
+  background-color: #1597E5;
+  display: flex;
+  margin: auto;
+}
+
+.card {
+  text-align: center;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card h2 {
+  color: #193498;
+  background-color: #1597E5;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.card p{
+  color: white;
+  background-color: #1597E5;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  background-color: #1597E5;
+}
+
+.card>div {
+  padding: 30px 10px;
+  background-color: #1597E5;
+}
+
+.card>div:hover{
+  background-color: #113CFC;
+  transition: 0.5s ease;
+}
+.card>div:hover img{
+  background-color: #113CFC;
+  transition: 0.5s ease;
+}
+.card>div:hover h2{
+  background-color: #113CFC;
+  color: #69DADB;
+  transition: 0.5s ease;
+}
+.card>div:hover p{
+  background-color: #113CFC;
+  transition: 0.5s ease;
+}
+
+aside{
+  background-color: #1597E5;
+  margin-top: 5em;
+  padding: 78px 0px;
+}
+
+aside h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #193498;
+  background-color: #1597E5;
+}
+
+aside section h3{
+  color: #193498;
+}
+
+aside h1::after {
+  content: "";
+  width: 210px;
+  height: 5px;
+  display: flex;
+  margin: auto;
+  background-color: #193498;
+}
+
+.about_card{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about_card .fotoprofil{
+  height: auto;
+  width: 420px;
+  border-radius: 100%;
+  border: solid #69DADB;
+}
+
+.about_text{
+  width: 550px;
+}
+
+.about_text p{
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+.about_text .card_kontak {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #1597E5;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.about_text .card_kontak img{
+  width: 30px;
+  height: 30px;
+  line-height: 60px;
+  background-color: #1597E5;
+}
+
+
+.card_kontak h3 {
+  background-color: #1597E5;
+  color: #193498; 
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.card_kontak>div {
+  padding: 20px 5px;
+  background-color: #1597E5;
+}
+
+footer {
+  padding: 20px;
+  color: #69DADB;
+  background-color: #193498;
+}
+
+
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    .logo{
+      font-size: 18px;
+      padding-left: 50px;
+    }
+    nav a{
+      font-size: 16px;
+    }
+    .about_card .fotoprofil{
+      display: none;
+    }
+  }
+  @media (max-width: 768px){
+    .checkbtn{
+      display: block;
+    }
+    nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #243342;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+      background: none;
+    }
+    nav a{
+      font-size: 20px;
+      background: none;
+    }
+    nav a:hover{
+      background: none;
+      color: #1597E5;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+
+    .card {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+@media (max-width: 480px) {
+  
+  .about_text .card_kontak{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
